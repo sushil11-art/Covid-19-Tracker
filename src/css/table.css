@@ -7,3 +7,9 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width:410px){
+    .table{
+        width:100%;
+    }
+}
