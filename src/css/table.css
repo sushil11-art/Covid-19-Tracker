@@ -5,10 +5,17 @@
     overflow-y: auto;
     height : 400px;
     margin-bottom: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 @media screen and (max-width:410px){
+    .table{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width:336px){
     .table{
         width:100%;
     }
