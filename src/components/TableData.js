@@ -64,11 +64,11 @@ export default function TableData({datas}) {
     <div className="table">
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="customized table">
-        <TableHead>
+         <TableHead  style={{position:"sticky",top:"0"}}>
           <TableRow>
             <StyledTableCell>Country Name</StyledTableCell>
             <StyledTableCell align="right">Total Cases</StyledTableCell>
-            <StyledTableCell align="right">Cases Today</StyledTableCell>
+            <StyledTableCell align="rnavbar sticky-top navbar-light bg-lightight">Cases Today</StyledTableCell>
             <StyledTableCell align="right">Recovered Cases&nbsp;</StyledTableCell>
             <StyledTableCell align="right">Recovered Today&nbsp;</StyledTableCell>
             <StyledTableCell align="right">Death Count&nbsp;</StyledTableCell>
@@ -82,5 +82,6 @@ export default function TableData({datas}) {
       </Table>
     </TableContainer>
     </div>
+
   );
 }
