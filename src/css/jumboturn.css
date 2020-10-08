@@ -1,0 +1,26 @@
+
+/* .jumbo{
+    margin:10px;
+    background-image: url(https://images.unsplash.com/photo-1584291527908-033f4d6542c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+    border-radius: 20px;
+    height: 450px;
+    width: 90%;
+} */
+
+
+/* .jumboturn h1{
+    /* margin:0px 0px 10px 0px; */
+    /* text-align:center; */
+    /* color:rgb(0,255,255); */
+    /* padding:100px 0px 0px 0px; */
+    /* background-color: red; */
+/* } */ 
+
+.display{
+    text-align:center;
+    margin:10px auto;
+}
