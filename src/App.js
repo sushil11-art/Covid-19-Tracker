@@ -139,7 +139,7 @@ function App() {
       </div>
      <Maps center={mapCenter} zoom={mapZoom} countries={countries} casesType={caseType} />
       <br />
-      <TableData datas={data} style={{overflow:"scroll",height:"200px"}}/>
+      <TableData datas={data}/>
       
     </div>
     </div>
